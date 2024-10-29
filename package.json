@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "node ./build/index.js",
+    "build": "tsc -p .",
+    "dev": "nodemon ./src/index.ts"
+  },
   "dependencies": {
     "express": "^4.21.1"
   },
